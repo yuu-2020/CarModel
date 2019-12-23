@@ -13,6 +13,14 @@
 		5E12B08A23AB91DD00A52913 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E12B08823AB91DD00A52913 /* Main.storyboard */; };
 		5E12B08C23AB91DF00A52913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E12B08B23AB91DF00A52913 /* Assets.xcassets */; };
 		5E12B08F23AB91DF00A52913 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E12B08D23AB91DF00A52913 /* LaunchScreen.storyboard */; };
+		5E12B09923AB9A6A00A52913 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E12B09823AB9A6A00A52913 /* Car.swift */; };
+		5E12B09B23AB9DC100A52913 /* Bike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E12B09A23AB9DC100A52913 /* Bike.swift */; };
+		5E12B09D23ABA13C00A52913 /* GameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E12B09C23ABA13C00A52913 /* GameProtocol.swift */; };
+		5E12B09F23ABA18800A52913 /* MyGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E12B09E23ABA18800A52913 /* MyGame.swift */; };
+		5E12B0A123ABA53000A52913 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E12B0A023ABA53000A52913 /* Protocol.swift */; };
+		5E12B0A323ABA5C100A52913 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E12B0A223ABA5C100A52913 /* Person.swift */; };
+		5E12B0A523ABA69F00A52913 /* John.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E12B0A423ABA69F00A52913 /* John.swift */; };
+		5E12B0A723ABA6DE00A52913 /* Jack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E12B0A623ABA6DE00A52913 /* Jack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		5E12B08B23AB91DF00A52913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E12B08E23AB91DF00A52913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E12B09023AB91DF00A52913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E12B09823AB9A6A00A52913 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		5E12B09A23AB9DC100A52913 /* Bike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bike.swift; sourceTree = "<group>"; };
+		5E12B09C23ABA13C00A52913 /* GameProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProtocol.swift; sourceTree = "<group>"; };
+		5E12B09E23ABA18800A52913 /* MyGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGame.swift; sourceTree = "<group>"; };
+		5E12B0A023ABA53000A52913 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		5E12B0A223ABA5C100A52913 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		5E12B0A423ABA69F00A52913 /* John.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = John.swift; sourceTree = "<group>"; };
+		5E12B0A623ABA6DE00A52913 /* Jack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 		5E12B08123AB91DD00A52913 /* CarModel */ = {
 			isa = PBXGroup;
 			children = (
+				5E12B09723AB9A4000A52913 /* Model */,
 				5E12B08223AB91DD00A52913 /* AppDelegate.swift */,
 				5E12B08423AB91DD00A52913 /* SceneDelegate.swift */,
 				5E12B08623AB91DD00A52913 /* ViewController.swift */,
@@ -65,6 +82,21 @@
 				5E12B09023AB91DF00A52913 /* Info.plist */,
 			);
 			path = CarModel;
+			sourceTree = "<group>";
+		};
+		5E12B09723AB9A4000A52913 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E12B09823AB9A6A00A52913 /* Car.swift */,
+				5E12B09A23AB9DC100A52913 /* Bike.swift */,
+				5E12B09C23ABA13C00A52913 /* GameProtocol.swift */,
+				5E12B09E23ABA18800A52913 /* MyGame.swift */,
+				5E12B0A023ABA53000A52913 /* Protocol.swift */,
+				5E12B0A223ABA5C100A52913 /* Person.swift */,
+				5E12B0A423ABA69F00A52913 /* John.swift */,
+				5E12B0A623ABA6DE00A52913 /* Jack.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +171,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E12B08723AB91DD00A52913 /* ViewController.swift in Sources */,
+				5E12B09F23ABA18800A52913 /* MyGame.swift in Sources */,
 				5E12B08323AB91DD00A52913 /* AppDelegate.swift in Sources */,
+				5E12B0A123ABA53000A52913 /* Protocol.swift in Sources */,
+				5E12B09B23AB9DC100A52913 /* Bike.swift in Sources */,
+				5E12B09923AB9A6A00A52913 /* Car.swift in Sources */,
+				5E12B0A523ABA69F00A52913 /* John.swift in Sources */,
+				5E12B0A323ABA5C100A52913 /* Person.swift in Sources */,
 				5E12B08523AB91DD00A52913 /* SceneDelegate.swift in Sources */,
+				5E12B0A723ABA6DE00A52913 /* Jack.swift in Sources */,
+				5E12B09D23ABA13C00A52913 /* GameProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

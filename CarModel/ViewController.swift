@@ -48,6 +48,7 @@ class ViewController: UIViewController {
     
     func helloWorld(){
         print("HelloWorld")
+        print("ユーザ名を変更")
     }
 
     @IBAction func doAction(_ sender: Any) {

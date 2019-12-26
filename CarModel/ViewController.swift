@@ -42,6 +42,12 @@ class ViewController: UIViewController {
         person.greet()
         
         //////////////////////////////////
+        
+        helloWorld()
+    }
+    
+    func helloWorld(){
+        print("HelloWorld")
     }
 
     @IBAction func doAction(_ sender: Any) {
